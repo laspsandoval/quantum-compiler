@@ -1,0 +1,15 @@
+coverage:
+  status:
+    patch:
+      default:
+        target: 90%
+        paths:
+          - quantum_compiler/**/*.py
+    project:
+      default:
+        target: 90%
+        paths:
+          - quantum_compiler/**/*.py
+
+ignore:
+  - "**/conftest.py"
